@@ -1,0 +1,13 @@
+{
+  "name": "secure-html-editor",
+  "productName": "secure-html-editor",
+  "version": "1.0.0",
+  "description": "This Electron app can edit HTML files and save them securely using AES encryption",
+  "main": "./dist/main/main.js",
+  "scripts": {
+    "electron-rebuild": "node -r ../../.erb/scripts/babel-register.js ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ../../.erb/scripts/babel-register.js ../../.erb/scripts/link-modules.js",
+    "postinstall": "yarn electron-rebuild && yarn link-modules"
+  },
+  "dependencies": {}
+}

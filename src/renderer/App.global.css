@@ -1,0 +1,33 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+ .buttonContainer { /* You Can Name it what you want*/
+  margin-bottom:16px;
+  }
+
+.buttonContainer button{ /* You Can Name it what you want*/
+  margin-right:16px;
+  background-color: #17252a;
+  color: #def2f1;
+  }
+
+.buttonContainer button:last-child{
+  margin-right:0px;
+  /*so the last one dont push the div thas giving the space only between the inputs*/
+  }
+  
+.ck-editor__editable_inline {
+  min-height: 85vh;
+}
+
+button:disabled
+{
+  background-color: #cccccc;
+  color: #666666;
+}
+
+body {
+  background-color: #3aafa9;
+}
