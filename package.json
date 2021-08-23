@@ -226,7 +226,7 @@
     "npm": ">=6.x",
     "yarn": ">=1.21.3"
   },
- "browserslist": [],
+  "browserslist": [],
   "prettier": {
     "overrides": [
       {
